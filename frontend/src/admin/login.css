@@ -1,0 +1,36 @@
+.login-container {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input {
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+  
+  .login-button {
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .login-error {
+    font-size: 13px;
+    color: red;
+    font-weight : 800;
+    text-align: center;
+  }
+  

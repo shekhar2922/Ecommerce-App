@@ -1,0 +1,56 @@
+.admin-container {
+    padding: 20px;
+    display: flex;
+}
+
+.admin-item {
+    flex: 1;
+}
+
+.admin-title {
+    text-align: center;
+}
+
+.admin-table {
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}
+
+.admin-imgContainer img {
+    height : 60px;
+    width : 60px;
+    object-fit : cover;
+    border-radius : 5px;
+}
+
+.admin-button {
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.admin-button:first-child {
+    background-color: teal;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.admin-button:last-child {
+    background-color: crimson;
+    padding: 10px;
+}
+
+.admin-logoutBtn{
+    padding: 10px;
+    background-color: #d1411e;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
