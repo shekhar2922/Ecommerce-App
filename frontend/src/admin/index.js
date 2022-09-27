@@ -18,7 +18,7 @@ const Index = () => {
     // console.log(id);
     try {
       await axios.delete(
-        `http://localhost:3000/api/products/${id}`
+        `https://ecommerce-app007.netlify.app/api/products/${id}`
       );
       setproductList(productList.filter((prod) => prod._id !== id));
     } catch (err) {
@@ -29,7 +29,7 @@ const Index = () => {
   const handleUpdate = async (id) => {
     const title = prompt("Enter product title to update")
     try {
-      const res = await axios.put("http://localhost:3000/api/products", {title , id});
+      const res = await axios.put("https://ecommerce-app007.netlify.app/api/products", {title , id});
       setproductList([
         res.data,
         ...productList.filter((prod) => prod._id !== id),
