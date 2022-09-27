@@ -28,7 +28,7 @@ const Add = ({ setClose }) => {
           price,
           img: url,
         };
-        await axios.post("/api/products", newProduct);
+        await axios.post("https://ecommerce-app007.netlify.app/api/products", newProduct);
         setClose(true);
       }
       else{
