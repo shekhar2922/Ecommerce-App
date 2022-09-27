@@ -14,7 +14,7 @@ function App() {
   const[close, setClose] = useState(true)
 
   const fetchProducts = async() => {
-    let res = await axios.get("https://ecommerce-app007.netlify.app/api/products");
+    let res = await axios.get("/api/products");
     setProducts(res.data)
     // console.log(res.data)
   }
