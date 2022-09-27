@@ -41,7 +41,7 @@ const Index = () => {
   };
 
   const fetchProducts = async() => {
-    let res = await axios.get("/api/products");
+    let res = await axios.get("https://ecommerce-app007.netlify.app/api/products");
     setproductList(res.data)
     // console.log(res.data)
   }
