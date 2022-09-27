@@ -18,7 +18,7 @@ const Login = () => {
 
   const handleClick = async () => {
     try {
-      let {data} =  await axios.post("https://ecommerce-app007.netlify.app/admin/login", {
+      let {data} =  await axios.post("http://localhost:3000/admin/login", {
         username,
         password,
       });
